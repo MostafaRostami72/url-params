@@ -2,6 +2,12 @@ get url params in javascript
 
 
 ```bash
+
+const isEmpty = (value) => {
+    return (typeof value === "undefined" || value === '' || value === null);
+};
+
+
 const getUrlParams = (url) => {
     let params = `${url}?`.split('?')[1];
     let query = {};
