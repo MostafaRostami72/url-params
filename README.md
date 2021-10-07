@@ -1,3 +1,6 @@
+get url params in javascript
+
+
 ```bash
 const getUrlParams = (url) => {
     let params = `${url}?`.split('?')[1];
